@@ -1,0 +1,53 @@
+.hamburger-fejlec {
+  background-color: burlywood;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+}
+
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+
+.menu {
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+
+.menu.megjelenik {
+  display: flex;
+}

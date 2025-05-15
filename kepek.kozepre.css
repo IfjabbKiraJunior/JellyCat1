@@ -1,0 +1,12 @@
+.kozepre {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;          
+}
+
+.kozepre img {
+  max-width: 300px;
+  margin: 10px;
+}

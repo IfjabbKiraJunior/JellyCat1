@@ -151,5 +151,61 @@
       });
     }
   </script>
+  
+
+<button id="hivatalos.oldal" style="color: black; background-color: burlywood;">Jellycat hivatalos oldal</button>
+
+<style>
+  #hivatalos.oldal {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 12px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+
+  #hivatalos.oldal:hover {
+    background-color: #e055a0;
+  }
+</style>
+
+
+<script>
+  document.getElementById('hivatalos.oldal').addEventListener('click', function() {
+    window.open('https://eu.jellycat.com', '_blank');
+  });
+</script>
+
+<div class="">
+  <img src="https://cdn11.bigcommerce.com/s-e66ltxu1n1/images/stencil/1280w/products/1777/24575/A2CND__04094.1744035192.jpg" alt="" style="width: 10000px; height: 500px ;">
+<img src="https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/1000w/products/239/48712/A6POT__82893.1732743507.jpg?c=1" alt=""  style="width: 10000px; height: 500px ;">
+<img src="https://m.media-amazon.com/images/I/618sW95xojL.jpg" alt="" style="width: 10000px; height: 500px ;">
+<img src="https://mamazooshop.hu/img/70674/A6PIC/500x500/A6PIC.webp?time=1726768958" alt="" style="width: 10000px; height: 500px ;">
+</div>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;      
+    flex-direction: column;  
+  }
+
+  img {
+    max-width: 300px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+</style>
 </body>
 </html>
